@@ -1,0 +1,2 @@
+# rizu
+my first website 
