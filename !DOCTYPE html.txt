@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rizuu Obsidian Rose Bracelets</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+body{
+  margin:0;
+  font-family:Poppins,sans-serif;
+  background:#1e1e1e; /* Dark obsidian base */
+  color:#eee;
+}
+
+/* HEADER */
+header{
+  background:#111; /* obsidian dark */
+  color:#f7c6c7; /* rose accent */
+  text-align:center;
+  padding:20px;
+}
+
+header h1{
+  margin:0;
+  font-size:28px;
+  letter-spacing:1px;
+}
+
+/* HERO */
+.hero{
+  background:linear-gradient(rgba(30,30,30,.7),rgba(30,30,30,.7)),
+  url("https://images.unsplash.com/photo-1625768027453-2a1681f888f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bracelet%20store%20dark");
+  background-size:cover;
+  background-position:center;
+  color:#f7c6c7;
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h2{font-size:32px;margin-bottom:10px;}
+.hero p{font-size:18px;}
+
+/* PRODUCTS */
+.products{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:40px 10px;
+}
+
+.card{
+  background:#2a2a2a; /* dark card background */
+  width:220px;
+  margin:15px;
+  border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,.5);
+  overflow:hidden;
+  text-align:center;
+  transition:.3s;
+}
+
+.card:hover{transform:translateY(-5px);}
+.card img{width:100%;height:220px;object-fit:cover;border-bottom:2px solid #f7c6c7;}
+.card h3{margin:10px 0 5px;}
+.price{color:#f7c6c7;font-weight:bold;margin-bottom:10px;}
+
+.btn{
+  display:inline-block;
+  margin:8px 5px 15px;
+  padding:10px 18px;
+  background:#f7c6c7;
+  color:#1e1e1e;
+  text-decoration:none;
+  border-radius:6px;
+  font-size:14px;
+  transition:.3s;
+}
+
+.btn:hover{background:#eaaab0;}
+
+/* WhatsApp green button override */
+.btn.whatsapp{background:#25D366;color:white;}
+.btn.whatsapp:hover{background:#1ebe5a;}
+
+/* CONTACT */
+.contact{
+  background:#111;
+  color:#f7c6c7;
+  text-align:center;
+  padding:30px 20px;
+}
+
+.contact a{color:#f7c6c7;text-decoration:none;}
+footer{text-align:center;padding:15px;background:#000;color:#f7c6c7;font-size:14px;}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Rizuu Obsidian Rose Bracelets</h1>
+</header>
+
+<section class="hero">
+  <h2>Obsidian Rose Handmade Bracelets</h2>
+  <p>Elegant • Unique • Affordable</p>
+</section>
+
+<section class="products">
+
+<!-- PRODUCT BLOCK -->
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+1" alt="Bracelet 1">
+  <h3>Obsidian Rose Bracelet 1</h3>
+  <p class="price">PKR 800</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%201">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+2" alt="Bracelet 2">
+  <h3>Obsidian Rose Bracelet 2</h3>
+  <p class="price">PKR 850</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%202">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+3" alt="Bracelet 3">
+  <h3>Obsidian Rose Bracelet 3</h3>
+  <p class="price">PKR 900</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%203">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+4" alt="Bracelet 4">
+  <h3>Obsidian Rose Bracelet 4</h3>
+  <p class="price">PKR 950</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%204">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+5" alt="Bracelet 5">
+  <h3>Obsidian Rose Bracelet 5</h3>
+  <p class="price">PKR 1000</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%205">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+6" alt="Bracelet 6">
+  <h3>Obsidian Rose Bracelet 6</h3>
+  <p class="price">PKR 1050</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%206">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+7" alt="Bracelet 7">
+  <h3>Obsidian Rose Bracelet 7</h3>
+  <p class="price">PKR 1100</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%207">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+8" alt="Bracelet 8">
+  <h3>Obsidian Rose Bracelet 8</h3>
+  <p class="price">PKR 1150</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%208">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+9" alt="Bracelet 9">
+  <h3>Obsidian Rose Bracelet 9</h3>
+  <p class="price">PKR 1200</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%209">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+10" alt="Bracelet 10">
+  <h3>Obsidian Rose Bracelet 10</h3>
+  <p class="price">PKR 1250</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%2010">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+11" alt="Bracelet 11">
+  <h3>Obsidian Rose Bracelet 11</h3>
+  <p class="price">PKR 1300</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%2011">Order WhatsApp</a>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/300x300.png?text=Obsidian+Rose+12" alt="Bracelet 12">
+  <h3>Obsidian Rose Bracelet 12</h3>
+  <p class="price">PKR 1350</p>
+  <a class="btn whatsapp" href="https://wa.me/923001234567?text=I%20want%20to%20order%20Obsidian%20Rose%20Bracelet%2012">Order WhatsApp</a>
+</div>
+
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>WhatsApp: <a href="https://wa.me/923001234567">+92 300 1234567</a></p>
+  <p>Instagram: <a href="#">@rizuu.bracelets</a></p>
+</section>
+
+<footer>
+  © 2026 Rizuu Obsidian Rose Bracelets — All Rights Reserved
+</footer>
+
+</body>
+</html>
